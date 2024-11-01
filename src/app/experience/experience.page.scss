@@ -1,0 +1,58 @@
+ion-content {
+    background: linear-gradient(110.6deg, rgb(156, 116, 129) -18.3%, rgb(67, 54, 74) 16.4%, rgb(47, 48, 67) 68.2%, rgb(27, 23, 36) 99.1%);
+    --background: none;
+    background-size: cover;
+}
+ion-toolbar{
+    border-bottom: 1px solid rgb(142, 69, 160);
+}
+ion-back-button{
+    border-radius: 50%;
+    opacity: 2;
+}
+
+img{
+    width: 400px;
+
+}
+
+img.logoImg {
+    // border: 1px solid rgb(142, 69, 160);
+    // padding-right: 5px;
+    position: absolute;
+    bottom: 4px;
+    top: -1px;
+    left: 1px;
+    width:90px !important
+}
+
+h1.title{
+background-image: linear-gradient(-225deg, #6d2b62 0%, #00FFFF 29%, #a200ff 67%, #cc00ff 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    // color: #fff;
+    // background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-container{
+    display: grid;
+    height: 400px;
+    // align-content: space-evenly;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 80px;
+}
+.project-title{
+    text-align: center;
+}
+.project-bx{
+    border: 1px solid whitesmoke;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(157, 190, 188, 0.2), 0 2px 20px 0 rgb(107, 94, 107);
+}

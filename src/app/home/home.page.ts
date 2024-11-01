@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,6 +8,15 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  emailAddress:string = 'maripia1220@gmail.com'
+  myNumber:string = '508-561-9945'
+
+  constructor(
+    private router: Router
+  ) {}
+
+ projects(){
+  this.router.navigateByUrl('experience')
+ }
 
 }

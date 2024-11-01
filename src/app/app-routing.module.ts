@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'experience',
+    loadChildren: () => import('./experience/experience.module').then( m => m.ExperiencePageModule)
+  },
+  {
+    path: 'contact-me',
+    loadChildren: () => import('./contact-me/contact-me.module').then( m => m.ContactMePageModule)
+  },
 ];
 
 @NgModule({

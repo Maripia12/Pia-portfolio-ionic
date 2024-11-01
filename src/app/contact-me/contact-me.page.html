@@ -1,0 +1,69 @@
+<!-- <ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>contact-me</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <img
+      class="logoImg"
+      src="../../assets/images/logo.jpg"
+      alt=""
+      width="90px"
+    />
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" >
+  <ion-card>
+    <ion-card-subtitle>
+    <h1 class="skill-title">Contact ME!</h1>
+  </ion-card-subtitle>
+    <ion-card-content class="contactCard">
+      <!-- <form> -->
+
+
+  <ion-item>
+    <div class="ion-activatable ripple-parent">
+    <ion-input label="First Name" labelPlacement="floating" placeholder="Enter text"></ion-input>
+    <ion-ripple-effect class="custom-ripple"></ion-ripple-effect>
+  </div>
+</ion-item>
+  
+
+  <ion-item>
+    <div class="ion-activatable ripple-parent">
+    <ion-input label="Last Name" labelPlacement="floating" placeholder="Enter text"></ion-input>
+    <ion-ripple-effect class="custom-ripple"></ion-ripple-effect>
+    </div>
+  </ion-item>
+
+
+  <ion-item>
+    <div class="ion-activatable ripple-parent">
+    <ion-input label="Email" labelPlacement="floating" placeholder="email@domain.com">
+    </ion-input>
+    <ion-ripple-effect class="custom-ripple"></ion-ripple-effect>
+    </div>
+  </ion-item>
+
+  <ion-item >
+    <!-- <div class="ion-activatable ripple-parent"> -->
+  <ion-textarea
+    placeholder="Your Message"
+    [autoGrow]="true"
+    (ionInput)="onTextInput($event)"
+  >
+  </ion-textarea>
+   <!-- <ion-ripple-effect class="custom-ripple"></ion-ripple-effect>
+   </div> -->
+</ion-item>
+
+<ion-button expand="block" class="submit-btn">Send it!</ion-button>
+
+
+
+<!-- </form> -->
+    </ion-card-content>
+  </ion-card>
+</ion-content>

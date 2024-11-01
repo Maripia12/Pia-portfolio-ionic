@@ -18,4 +18,7 @@ export class ExperiencePage implements OnInit {
  petApp(){
   window.open('https://mlward639.github.io/Project-One-Sassy-Pets/','_blank')
  }
+ empPortal(){
+  window.open('https://portal.materialinmotion.com/empApp/login' , '_blanck')
+ }
 }

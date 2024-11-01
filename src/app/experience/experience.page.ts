@@ -12,4 +12,10 @@ export class ExperiencePage implements OnInit {
   ngOnInit() {
   }
 
+  reactPortfolio(){
+    window.open('https://maripia12.github.io/React-portfolio/#about' , '_blank' )
+  }
+ petApp(){
+  window.open('https://mlward639.github.io/Project-One-Sassy-Pets/','_blank')
+ }
 }

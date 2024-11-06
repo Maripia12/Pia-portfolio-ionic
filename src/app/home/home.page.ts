@@ -19,4 +19,6 @@ export class HomePage {
   this.router.navigateByUrl('experience')
  }
 
+
+
 }

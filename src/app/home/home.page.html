@@ -7,8 +7,8 @@
       width="90px"
     />
     <ion-buttons slot="end" style="margin-right: 100px">
-      <ion-button style="margin: 10px" (click)="projects()">projects</ion-button>
-      <ion-button>Resume</ion-button>
+      <ion-button class="navbarBtns" style="margin: 10px" (click)="projects()">projects</ion-button>
+      <ion-button class="navbarBtns" (click)="resumeBtn()">Resume</ion-button>
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
@@ -70,8 +70,8 @@
                 </g>
               </svg>
             </h1>
-            <a href="../../assets/images/resume.pdf" download> download resume</a>
-            <p>
+            <!-- <a href="../../assets/images/resume.pdf" download> download resume</a> -->
+            <p style="color: white;">
               I'm a team-minded and motivated software engineering graduate from
               Georgia Tech Coding Bootcamp Program looking for a development
               position. I have the ability and willingness to innovate and learn
@@ -628,4 +628,9 @@
       <div></div>
     </ion-card>
   </div>
+  <ion-footer [translucent]="true">
+  <ion-toolbar>
+    <p class="footer-text">All rights reserved &#xA9; 2024 Built with Ionic-Angular<p>
+  </ion-toolbar>
+</ion-footer>
 </ion-content>

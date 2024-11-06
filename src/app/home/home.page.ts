@@ -19,6 +19,10 @@ export class HomePage {
   this.router.navigateByUrl('experience')
  }
 
+ resumeBtn(){
+  this.router.navigateByUrl('resume')
+ }
+
 
 
 }

@@ -4,6 +4,7 @@
     class="logoImg"
     src="../../assets/images/logo.jpg"
     alt=""
+    [routerLink]="['/home']"
   />
   <ion-buttons slot="end">
     <ion-back-button style="background: rgb(99, 147, 167);" default-href="#"></ion-back-button>
@@ -15,8 +16,24 @@
   <h1 class="title">Projects</h1>
 
   <div class="project-container">
-    <div class="project-bx" (click)="reactPortfolio()">
-    <img src="../../assets/images/react-portfolio.jpg" alt="">
+ 
+  
+   <div class="project-bx" (click)="todoApp()">
+    <img src="../../assets/images/todo app.jpg" height="250px" alt="">
+    <div class="title-bg">
+      <p class="project-title">React + Vite Todo App</p>
+      </div>
+      <div class="skills-bg">
+      <ul>
+        <li>React Framework</li>
+        <li>Vite</li>
+        <li>JavaScript</li>
+        <li>Tailwind CSS</li>
+      </ul>
+      </div>
+    </div>
+       <div class="project-bx" (click)="reactPortfolio()">
+    <img src="../../assets/images/react-portfolio.jpg" height="345px" alt="">
     <div class="title-bg">
       <p class="project-title">React Portfolio </p>
       </div>
@@ -29,7 +46,7 @@
       </ul>
       </div>
     </div>
-    <div class="project-bx" (click)="petApp()">
+      <div class="project-bx" (click)="petApp()">
     <img src="../../assets/images/sassypet-project.jpg" height="250px" alt="">
     <div class="title-bg">
       <p class="project-title">Sassy Pet App</p>
@@ -40,21 +57,6 @@
         <li>HTML</li>
         <li>CSS</li>
         <li>BootStrap</li>
-        <li>jQuery</li>
-      </ul>
-      </div>
-    </div>
-   <div class="project-bx" (click)="todoApp()">
-    <img src="../../assets/images/todo app.jpg" height="250px" alt="">
-    <div class="title-bg">
-      <p class="project-title">React + Vite Todo App</p>
-      </div>
-      <div class="skills-bg">
-      <ul>
-        <li>React Framework</li>
-        <li>Vite</li>
-        <li>JavaScript</li>
-        <li>Tailwind CSS</li>
       </ul>
       </div>
     </div>
@@ -76,7 +78,7 @@
 
   <div class="project-container">
       <div class="project-bx" (click)="empPortal()">
-    <img src="../../assets/images/cert-table.jpg" alt="">
+    <img src="../../assets/images/cert-table.jpg" height="480px">
     <div class="title-bg">
       <p class="project-title">Certification Table (Employee Portal App)</p>
       </div>
@@ -90,7 +92,7 @@
       </div>
     </div>
       <div class="project-bx">
-    <img src="../../assets/images/tmo-app.jpg" alt="">
+    <img src="../../assets/images/tmo-app.jpg" height="480px" alt="">
     <div class="title-bg">
       <p class="project-title">PTO request (Time Off App)</p>
       </div>

@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'contact-me',
     loadChildren: () => import('./contact-me/contact-me.module').then( m => m.ContactMePageModule)
   },
+  {
+    path: 'resume',
+    loadChildren: () => import('./resume/resume.module').then( m => m.ResumePageModule)
+  },
 ];
 
 @NgModule({

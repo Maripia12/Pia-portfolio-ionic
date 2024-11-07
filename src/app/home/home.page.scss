@@ -47,8 +47,10 @@ ion-button {
 }
 .main-content {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center; // only works with flex and manipulates the y axis. vertical
+  // flex-wrap: wrap;
+  flex-flow: wrap;
+  flex-direction: row;
+  // align-items: center; // only works with flex and manipulates the y axis. vertical
 }
 .main-content > * {
   width: 50%;
@@ -72,6 +74,8 @@ ion-button {
 }
 .intro {
   display: flex;
+  // flex-flow: wrap;
+  // flex-direction:row ;
   padding-right: 2px;
   padding-left: 2px;
 }
@@ -229,3 +233,8 @@ h1.skill-title {
   font-size: smaller;
 }
 
+@media screen and (max-width:600px) {
+
+
+  
+}

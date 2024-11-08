@@ -47,3 +47,9 @@ a{
 .contact-btn {
     --background: #00ffff;
 }
+
+@media screen and (max-width:600px) {
+    .resume-img{
+        width: 500%;
+    }
+}

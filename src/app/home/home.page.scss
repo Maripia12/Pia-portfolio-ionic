@@ -12,6 +12,11 @@ ion-button {
   font-size: 10px;
   // background-color: #64647050;
 }
+ion-card{
+background-color: #000;
+}
+
+
 .navbarBtns{
   border: 1px solid rgb(182, 61, 238);
   -webkit-transition: all .3s ease-in-out;
@@ -222,15 +227,15 @@ h1.skill-title {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
- 
- 
+  
+
 }
 
-// .skill-list{
-//   display: flex;
-//   flex-wrap: wrap;
+ion-list ion-item{
+--background: #000;
+color: whitesmoke;
  
-// }
+}
 
 .skills-container > * {
   width:25%;

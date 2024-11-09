@@ -37,3 +37,15 @@
 @import "@ionic/angular/css/palettes/dark.system.css";
 
 
+ion-toolbar{
+    --background: #000;
+    color: whitesmoke;
+}
+
+ion-list.skill-list{
+    background-color: #000;
+}
+
+ion-list.medialist{
+    background-color: #000;
+}

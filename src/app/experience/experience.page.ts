@@ -13,7 +13,7 @@ export class ExperiencePage implements OnInit {
   ngOnInit() {
   }
 
-  reactPortfolio(){
+ reactPortfolio(){
     window.open('https://maripia12.github.io/React-portfolio/#about' , '_blank' )
   }
  petApp(){
@@ -21,6 +21,9 @@ export class ExperiencePage implements OnInit {
  }
  todoApp(){
   window.open('https://todo-app-react-henna-seven.vercel.app/ ', '_blank')
+ }
+ clockApp(){
+  window.open('https://world-time-clock-app.vercel.app/','_blank')
  }
  empPortal(){
   window.open('https://portal.materialinmotion.com/empApp/login' , '_blanck')

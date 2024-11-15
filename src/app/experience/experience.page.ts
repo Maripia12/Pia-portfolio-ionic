@@ -25,6 +25,9 @@ export class ExperiencePage implements OnInit {
  clockApp(){
   window.open('https://world-time-clock-app.vercel.app/','_blank')
  }
+ weatherApp(){
+  window.open('https://my-weather-app-gamma-two.vercel.app/','_blank')
+ }
  empPortal(){
   window.open('https://portal.materialinmotion.com/empApp/login' , '_blanck')
  }
